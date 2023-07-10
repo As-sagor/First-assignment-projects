@@ -17,16 +17,16 @@ body {
 
 .header-container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .header-greeting {
-    
+
     margin: 190px 150px;
 }
 
 .header-title {
-    
+
     padding-bottom: 30px;
     color: #272727;
     font-size: 50px;
@@ -64,10 +64,84 @@ body {
     height: 600px;
     margin-top: 98px;
     margin-right: 104px;
-    
-    
-   
+
+
+
 }
-.header-img-container{
+
+/* main section styles */
+
+
+/* flower feature  */
+.flower-feature {
+    text-align: center;
+
+}
+
+.feature {
+    margin-top: 170px;
+}
+
+.title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 60px;
+
+}
+
+.flower-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.flower-img {
+    height: 50px;
+    width: 50px;
+}
+
+.names {
+    /* display: block;
+    text-align: center; */
+}
+
+.video {
+    height: 190px;
+    height: 190px;
+
+}
+
+.flower-details {
+    
+
+    /* background-image: url('/mulyadi-ouDz1gXoju4-unsplash.jpg'); */
+}
+
+/* service section styles */
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 150px;
+    margin: 250px 0px;
+}
+
+.service-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
     
 }
