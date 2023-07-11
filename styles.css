@@ -45,14 +45,14 @@ body {
 
 .btn {
     color: #FFF;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 .primary-color {
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 40px;
+    padding: 15px 30px;
     color: #FFFFFF;
     border: none;
 }
@@ -196,7 +196,92 @@ body {
     padding-bottom: 20px;
 
 }
-.offer-flower-img{
+
+.offer-flower-img {
     padding: 100px 200px 100px 100px;
+
+}
+
+.social-container {
+    text-align: center;
+}
+
+.social-info {
+    margin-top: 150px;
+}
+
+.social-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.social-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 60px;
+
+}
+
+/* flower menus section styles */
+
+.flower-menus-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 200px 100px 200px;
+
+}
+
+.item-list {
+    width: 256px;
+    height: 313px
+}
+
+/* deals information section styles */
+
+.deals-container {
+    background-image: url('/images/Rectangle\ 9.png');
+    height: 440px;
+    width: 1110px;
+    margin: 100px 280px 100px 200px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.deals-info {
+    text-align: center;
+
+}
+
+.deals-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 15px;
+
+}
+
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 35px;
+}
+
+.input-mail {
+    padding: 12.5px 25px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 40%;
     
 }
