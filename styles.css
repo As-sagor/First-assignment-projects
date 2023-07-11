@@ -105,7 +105,7 @@ body {
 
 }
 
-.flower-img {
+.flower-vdo {
     height: 50px;
     width: 50px;
 
@@ -296,21 +296,44 @@ body {
 .footer-container {
     text-align: center;
     width: 100%;
-    height: 400px;
+    height: 100%;
     background: #111010;
 }
 
 .footer-title {
-    color:white;
+    color:rgb(219, 209, 209);
     font-size: 40px;
     font-weight: 800;
     padding-bottom: 20px;
 }
+.text-color{
+    color: #E55473;;
+}
 
 .footer-description {
-    color:white;
+    color: rgb(219, 209, 209);
     text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-    padding-bottom: 60px;
+    font-size: 16px;
+    line-height: 40px;
+    padding-bottom: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+.footer-info{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+hr{
+    border: 1px solid rgb(119, 10, 10);
+    width: 50%;
+    margin: auto;
+    
 }
